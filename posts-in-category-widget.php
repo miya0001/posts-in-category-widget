@@ -16,7 +16,7 @@ class PostsInCategoryWidget extends WP_Widget {
     private $domain = 'posts-in-category-widget';
 
     function __construct() {
-		$widget_ops = array(
+        $widget_ops = array(
             'description' => __(
                 'Display Posts from a selected category.',
                 $this->domain

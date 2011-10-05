@@ -12,6 +12,8 @@ Display post from a selected category with post thumbnail.
 
 Display post from a selected category with post thumbnail.
 
+[This plugin maintained on GitHub.](https://github.com/miya0001/posts-in-category-widget)
+
 = Some features: =
 
 * Display post from a selected category with post thumbnail on sidebar widget.
@@ -46,6 +48,7 @@ Please contact to me.
 
 * @miya0001 on twitter.
 * http://www.facebook.com/firegoby
+* https://github.com/miya0001/posts-in-category-widget
 
 = Contributors =
 

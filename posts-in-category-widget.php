@@ -2,18 +2,18 @@
 /*
 Plugin Name: Posts from a Category Widget
 Author: Takayuki Miyauchi
-Plugin URI: http://firegoby.theta.ne.jp/wp/posts-in-category-widget
+Plugin URI: http://firegoby.theta.ne.jp/wp/posts-from-category-widget
 Description: Display posts from a selected category on sidebar widget.
-Version: 0.4.0
+Version: 0.5.0
 Author URI: http://firegoby.theta.ne.jp/
 Domain Path: /languages
-Text Domain: posts-in-category-widget
+Text Domain: posts-from-category-widget
 */
 
-class PostsInCategoryWidget extends WP_Widget {
+class PostsFromCategoryWidget extends WP_Widget {
 
     private $num = 5;
-    private $domain = 'posts-in-category-widget';
+    private $domain = 'posts-from-category-widget';
 
     function __construct() {
         $widget_ops = array(
@@ -210,7 +210,7 @@ class PostsInCategoryWidget extends WP_Widget {
         $html .= '<div class="post-date">%post_date%</div>';
         $html .= '</div>';
         $html .= '</div>';
-        return apply_filters("posts-in-category-widget-template", $html);
+        return apply_filters("posts-from-category-widget-template", $html);
     }
 }
 
@@ -228,19 +228,19 @@ public function wp_head()
     $url = WP_PLUGIN_URL.'/'.dirname(plugin_basename(__FILE__)).'/style.css';
     printf(
         '<link rel="stylesheet" type="text/css" media="all" href="%s" />'."\n",
-        apply_filters("posts-in-category-widget-stylesheet", $url)
+        apply_filters("posts-from-category-widget-stylesheet", $url)
     );
 }
 
 public function widgets_init()
 {
-    return register_widget("PostsInCategoryWidget");
+    return register_widget("PostsFromCategoryWidget");
 }
 
 public function plugins_loaded()
 {
     load_plugin_textdomain(
-        "posts-in-category-widget",
+        "posts-from-category-widget",
         false,
         dirname(plugin_basename(__FILE__)).'/languages'
     );

@@ -135,7 +135,7 @@ class PostsFromCategoryWidget extends WP_Widget {
         } else {
             $size = null;
         }
-        if (isset($instance['num']) && intval($instance['num'])) {
+        if (!isset($instance['num']) || !intval($instance['num'])) {
             $num = $this->num;
         } else {
             $num = $instance['num']; 

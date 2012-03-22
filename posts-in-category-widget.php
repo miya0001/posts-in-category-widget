@@ -4,7 +4,7 @@ Plugin Name: Posts from a Category Widget
 Author: Takayuki Miyauchi
 Plugin URI: http://firegoby.theta.ne.jp/wp/posts-from-category-widget
 Description: Display posts from a selected category on sidebar widget.
-Version: 0.7.0
+Version: 0.7.1
 Author URI: http://firegoby.theta.ne.jp/
 Domain Path: /languages
 Text Domain: posts-from-category-widget
@@ -33,8 +33,15 @@ function __construct()
 }
 
 public function form($instance) {
+    if (isset($instance['category']) && intval($instance['category'])) {
+        $category = $instance['category'];
+    } else {
+        $category = '';
+    }
     if (isset($instance['title']) && strlen($instance['title'])) {
         $tvalue = esc_attr($instance['title']);
+    } elseif ($category) {
+        $tvalue = get_cat_name($category);
     } else {
         $tvalue = '';
     }
@@ -51,11 +58,6 @@ public function form($instance) {
     );
     echo '</p>';
 
-    if (isset($instance['category']) && intval($instance['category'])) {
-        $category = $instance['category'];
-    } else {
-        $category = '';
-    }
     $pfield = $this->get_field_id('category');
     $pfname = $this->get_field_name('category');
     $cats = get_categories();
@@ -168,7 +170,7 @@ public function widget($args, $instance) {
         $size = null;
     }
     if (isset($instance['num']) && intval($instance['num'])) {
-        $num = $instance['num']; 
+        $num = $instance['num'];
     } else {
         $num = $this->num;
     }

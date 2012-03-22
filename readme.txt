@@ -4,7 +4,7 @@ Donate link: http://firegoby.theta.ne.jp/
 Tags: widget
 Requires at least: 3.2
 Tested up to: 3.2
-Stable tag: 0.7.0
+Stable tag: 0.7.1
 
 Display post from a selected category with post thumbnail.
 

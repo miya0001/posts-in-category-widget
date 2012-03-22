@@ -1,42 +1,61 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# Copyright (C) 2010 Posts from a Category Widget
+# This file is distributed under the same license as the Posts from a Category Widget package.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-05 03:01+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Project-Id-Version: Posts from a Category Widget 0.7.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/posts-in-category-widget\n"
+"POT-Creation-Date: 2012-03-22 15:25:05+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: 8bit\n"
 
-#: ../posts-in-category-widget.php:21
+#: posts-in-category-widget.php:21
 msgid "Display Posts from a selected category."
 msgstr ""
 
-#: ../posts-in-category-widget.php:28
-msgid "Posts from a Category"
+#: posts-in-category-widget.php:29
+msgid "Category"
 msgstr ""
 
-#: ../posts-in-category-widget.php:41
+#: posts-in-category-widget.php:49
+msgid "Title:"
+msgstr ""
+
+#: posts-in-category-widget.php:65
 msgid "Category:"
 msgstr ""
 
-#: ../posts-in-category-widget.php:61
+#: posts-in-category-widget.php:89
 msgid "Image size:"
 msgstr ""
 
-#: ../posts-in-category-widget.php:82
+#: posts-in-category-widget.php:112
 msgid "Number of posts:"
 msgstr ""
 
-#: ../posts-in-category-widget.php:96
+#: posts-in-category-widget.php:130
 msgid "Template:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Posts from a Category Widget"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://firegoby.theta.ne.jp/wp/posts-from-category-widget"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Display posts from a selected category on sidebar widget."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Takayuki Miyauchi"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://firegoby.theta.ne.jp/"
 msgstr ""

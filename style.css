@@ -5,12 +5,11 @@
     padding: 5px;
 }
 
-.post-cat-widget .post .post-thumb
+.post-cat-widget .post .post-thumb img
 {
-}
-
-.post-cat-widget .post .post-content
-{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .post-cat-widget .post .post-date

@@ -4,7 +4,7 @@ Plugin Name: Posts from a Category Widget
 Author: Takayuki Miyauchi
 Plugin URI: http://firegoby.theta.ne.jp/wp/posts-from-category-widget
 Description: Display posts from a selected category on sidebar widget.
-Version: 0.6.0
+Version: 0.7.0
 Author URI: http://firegoby.theta.ne.jp/
 Domain Path: /languages
 Text Domain: posts-from-category-widget
@@ -26,13 +26,31 @@ function __construct()
     $control_ops = array('width' => 400);
     parent::__construct(
         false,
-        __('Posts from a Category', $this->domain),
+        __('Category', $this->domain),
         $widget_ops,
         $control_ops
     );
 }
 
 public function form($instance) {
+    if (isset($instance['title']) && strlen($instance['title'])) {
+        $tvalue = esc_attr($instance['title']);
+    } else {
+        $tvalue = '';
+    }
+    echo '<p>';
+    echo __("Title:", $this->domain);
+    echo "<br />";
+    $tfield = $this->get_field_id('title');
+    $tname = $this->get_field_name('title');
+    printf(
+        '<input type="text" name="%s" id="%s" value="%s" style="width:100%%" />',
+        $tname,
+        $tfield,
+        $tvalue
+    );
+    echo '</p>';
+
     if (isset($instance['category']) && intval($instance['category'])) {
         $category = $instance['category'];
     } else {
@@ -154,7 +172,11 @@ public function widget($args, $instance) {
     } else {
         $num = $this->num;
     }
-    $catname = get_cat_name($cat);
+    if (isset($instance['title']) && strlen($instance['num'])) {
+        $catname = esc_html($instance['title']);
+    } else {
+        $catname = esc_html(get_cat_name($cat));
+    }
     if (isset($instance['tpl']) && $instance['tpl']) {
         $tpl = $instance['tpl'];
     } else {

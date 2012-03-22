@@ -1,10 +1,10 @@
 === Posts from a Category Widget ===
 Contributors: miyauchi
 Donate link: http://firegoby.theta.ne.jp/
-Tags: widget 
+Tags: widget
 Requires at least: 3.2
 Tested up to: 3.2
-Stable tag: 0.6.0
+Stable tag: 0.7.0
 
 Display post from a selected category with post thumbnail.
 

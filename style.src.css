@@ -1,0 +1,18 @@
+.post-cat-widget .post
+{
+    border-bottom: 1px dashed #cccccc;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.post-cat-widget .post .post-thumb img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.post-cat-widget .post .post-date
+{
+    font-size: 80%;
+}
+

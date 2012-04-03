@@ -4,7 +4,7 @@ Plugin Name: Posts from a Category Widget
 Author: Takayuki Miyauchi
 Plugin URI: http://firegoby.theta.ne.jp/wp/posts-from-category-widget
 Description: Display posts from a selected category on sidebar widget.
-Version: 0.7.2
+Version: 0.8.0
 Author URI: http://firegoby.theta.ne.jp/
 Domain Path: /languages
 Text Domain: posts-from-category-widget
@@ -267,7 +267,7 @@ function __construct()
 
 public function wp_head()
 {
-    $url = WP_PLUGIN_URL.'/'.dirname(plugin_basename(__FILE__)).'/style.css';
+    $url = plugins_url("", __FILE__).'/style.css';
     printf(
         '<link rel="stylesheet" type="text/css" media="all" href="%s" />'."\n",
         apply_filters("posts-from-category-widget-stylesheet", $url)

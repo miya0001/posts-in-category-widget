@@ -1,10 +1,10 @@
 === Posts from a Category Widget ===
 Contributors: miyauchi
-Donate link: http://firegoby.theta.ne.jp/
+Donate link: http://wpist.me/
 Tags: widget
 Requires at least: 3.2
 Tested up to: 3.2
-Stable tag: 0.7.2
+Stable tag: 0.8.0
 
 Display post from a selected category with post thumbnail.
 
@@ -47,12 +47,13 @@ Filter for stylesheet URI.
 Please contact to me.
 
 * @miya0001 on twitter.
-* http://www.facebook.com/firegoby
+* http://wpist.me/ (en)
+* http://firegoby.jp/ (ja)
 * https://github.com/miya0001/posts-in-category-widget
 
 = Contributors =
 
-* [Takayuki Miyauchi](http://firegoby.theta.ne.jp/)
+* [Takayuki Miyauchi](http://wpist.me/)
 
 == Installation ==
 

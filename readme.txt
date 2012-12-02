@@ -4,7 +4,7 @@ Donate link: http://wpist.me/
 Tags: widget
 Requires at least: 3.4
 Tested up to: 3.5
-Stable tag: 0.9.0
+Stable tag: 0.9.1
 
 Display post from a selected category with post thumbnail.
 
@@ -63,8 +63,9 @@ Please contact to me.
 
 == Changelog ==
 
-= 0.9.0 =
+= 0.9.1 =
 * use wp_enqueue_style() for load css
+* shortcode supoort
 
 = 0.6.0 =
 * Bug fix.

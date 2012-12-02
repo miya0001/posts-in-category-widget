@@ -2,9 +2,9 @@
 Contributors: miyauchi
 Donate link: http://wpist.me/
 Tags: widget
-Requires at least: 3.2
-Tested up to: 3.3.1
-Stable tag: 0.8.1
+Requires at least: 3.4
+Tested up to: 3.5
+Stable tag: 0.9.0
 
 Display post from a selected category with post thumbnail.
 
@@ -62,6 +62,9 @@ Please contact to me.
 * The plug-in is made effective.
 
 == Changelog ==
+
+= 0.9.0 =
+* use wp_enqueue_style() for load css
 
 = 0.6.0 =
 * Bug fix.

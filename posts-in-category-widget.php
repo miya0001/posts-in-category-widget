@@ -174,7 +174,7 @@ public function widget($args, $instance) {
     } else {
         $num = $this->num;
     }
-    if (isset($instance['title']) && strlen($instance['num'])) {
+    if (isset($instance['title']) && strlen($instance['title'])) {
         $catname = esc_html($instance['title']);
     } else {
         $catname = esc_html(get_cat_name($cat));

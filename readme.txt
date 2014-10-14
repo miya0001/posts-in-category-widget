@@ -3,8 +3,8 @@ Contributors: miyauchi
 Donate link: http://wpist.me/
 Tags: widget
 Requires at least: 3.4
-Tested up to: 3.5
-Stable tag: 0.9.1
+Tested up to: 4.0
+Stable tag: 1.0.1
 
 Display post from a selected category with post thumbnail.
 

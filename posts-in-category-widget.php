@@ -2,10 +2,10 @@
 /*
 Plugin Name: Posts from a Category Widget
 Author: Takayuki Miyauchi
-Plugin URI: http://firegoby.theta.ne.jp/wp/posts-from-category-widget
+Plugin URI: https://github.com/miya0001/posts-in-category-widget
 Description: Display posts from a selected category on sidebar widget.
-Version: 0.9.1
-Author URI: http://firegoby.theta.ne.jp/
+Version: 1.0.1
+Author URI: http://wpist.me/
 Domain Path: /languages
 Text Domain: posts-from-category-widget
 */

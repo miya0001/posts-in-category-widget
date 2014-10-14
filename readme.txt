@@ -54,6 +54,7 @@ Please contact to me.
 = Contributors =
 
 * [Takayuki Miyauchi](http://wpist.me/)
+* [Hosoya Takashi](http://ht79.info/)
 
 == Installation ==
 
@@ -62,6 +63,9 @@ Please contact to me.
 * The plug-in is made effective.
 
 == Changelog ==
+
+= 1.0.1 =
+* https://github.com/miya0001/posts-in-category-widget/compare/6526d94bb17129414ca675e047daf447ced1c4a4...1.0.1
 
 = 0.9.1 =
 * use wp_enqueue_style() for load css

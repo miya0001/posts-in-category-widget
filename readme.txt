@@ -1,5 +1,5 @@
 === Posts from a Category Widget ===
-Contributors: miyauchi
+Contributors: miyauchi, tkc49
 Donate link: http://wpist.me/
 Tags: widget
 Requires at least: 3.4

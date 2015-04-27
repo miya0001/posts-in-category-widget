@@ -6,19 +6,19 @@ Requires at least: 3.4
 Tested up to: 4.2
 Stable tag: 1.1.1
 
-Display post from a selected category with post thumbnail.
+Displays post from a selected category with post thumbnail.
 
 == Description ==
 
-Display post from a selected category with post thumbnail.
+Displays post from a selected category with post thumbnail.
 
-[This plugin maintained on GitHub.](https://github.com/miya0001/posts-in-category-widget)
+[This plugin is maintained on GitHub.](https://github.com/miya0001/posts-in-category-widget)
 
 = Some features: =
 
-* Display post from a selected category with post thumbnail on sidebar widget.
+* Displays post from a selected category with post thumbnail on sidebar widget.
 * You can customize HTML output.
-* You can customize default HTML template on your plugin.
+* You can customize default HTML template in your plugin.
 
 = filter hooks example =
 
@@ -44,7 +44,7 @@ Filter for stylesheet URI.
 
 * Japanese(ja) - [Takayuki Miyauchi](http://firegoby.theta.ne.jp/)
 
-Please contact to me.
+Please contact me.
 
 * @miya0001 on twitter.
 * http://wpist.me/ (en)
@@ -58,9 +58,9 @@ Please contact to me.
 
 == Installation ==
 
-* A plug-in installation screen is displayed on the WordPress admin panel.
+* A plugin installation screen is displayed on the WordPress admin panel.
 * It installs it in `wp-content/plugins`.
-* The plug-in is made effective.
+* The plugin is made effective.
 
 == Changelog ==
 
@@ -85,8 +85,8 @@ Please contact to me.
 
 == Credits ==
 
-This plug-in is not guaranteed though the user of WordPress can freely use this plug-in free of charge regardless of the purpose.
-The author must acknowledge the thing that the operation guarantee and the support in this plug-in use are not done at all beforehand.
+This plugin is not guaranteed though the user of WordPress can freely use this plugin free of charge regardless of the purpose.
+The author must acknowledge the thing that the operation guarantee and the support in this plugin use are not done at all beforehand.
 
 == Contact ==
 

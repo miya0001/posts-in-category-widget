@@ -3,8 +3,8 @@ Contributors: miyauchi, tkc49
 Donate link: http://wpist.me/
 Tags: widget
 Requires at least: 3.4
-Tested up to: 4.1
-Stable tag: 1.1.0
+Tested up to: 4.2
+Stable tag: 1.1.1
 
 Display post from a selected category with post thumbnail.
 
@@ -63,6 +63,9 @@ Please contact to me.
 * The plug-in is made effective.
 
 == Changelog ==
+
+= 1.1.1 =
+* Tested up to 1.1.1.
 
 = 1.0.1 =
 * https://github.com/miya0001/posts-in-category-widget/compare/6526d94bb17129414ca675e047daf447ced1c4a4...1.0.1

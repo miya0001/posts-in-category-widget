@@ -4,7 +4,7 @@ Plugin Name: Posts from a Category Widget
 Author: Takayuki Miyauchi
 Plugin URI: https://github.com/miya0001/posts-in-category-widget
 Description: Display posts from a selected category on sidebar widget.
-Version: 1.1.1
+Version: 1.2.0
 Author URI: http://wpist.me/
 Domain Path: /languages
 Text Domain: posts-from-category-widget
@@ -68,7 +68,7 @@ public function form($instance) {
     $op = '<option value="%s"%s>%s</option>';
     printf($op, '', '', '');
     foreach ($cats as $c) {
-        if ($category === $c->term_id) {
+        if (intval($category) === $c->term_id) {
             printf($op, $c->term_id, ' selected="selected"', $c->name);
         } else {
             printf($op, $c->term_id, '', $c->name);
